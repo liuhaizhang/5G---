@@ -1,0 +1,4 @@
+pip install requests==2.28.1  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install serial==0.0.97  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install pyserial==3.5  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+pip install opencv-contrib-python==3.4.11.45  -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
