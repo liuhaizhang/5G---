@@ -34,6 +34,20 @@ def play_web_audio(url):
         '-vn',
         '-nodisp'
     ]
+
+    #测试的command
+    command =[
+        'ffplay',
+        '-i', f'{url}',
+        '-f','live_flv', #表明流是直播，会影响搜索行为，迫使它往前走
+        '-fflags', 'nobuffer', #不使用缓存
+        '-flags','low_delay', #使用低时延
+        '-strict','experimental', #允许ffplay偏离解码器性能标准
+        '-vf','setpts=N/60/TB',#这个很关键，强制输入流以60fps，由于流实际上以59.25fps速度运行，我们将慢慢赶上
+        '-noframedrop',
+        '-vn', #不要视频
+        '-nodisp', #不要展示画面
+    ]
     # os.system(f"ffplay -fflags nobuffer -flags low_delay -i {url} -vn")
     main_pid = os.getpid() #主进程的id
     while True:
