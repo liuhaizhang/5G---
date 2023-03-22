@@ -25,7 +25,7 @@ def play_web_audio(url):
     '''
     command = [
         'ffplay',
-        '-i' ,{url},
+        '-i' ,f'{url}',
         '-fflags','nobuffer',
         '-flags','low_delay',
         # '-pes_payload_size', '0',
@@ -39,12 +39,13 @@ def play_web_audio(url):
     command =[
         'ffplay',
         '-i', f'{url}',
+        '-async','1', #解决偶然发生的拉流太慢
         '-f','live_flv', #表明流是直播，会影响搜索行为，迫使它往前走
         '-fflags', 'nobuffer', #不使用缓存
         '-flags','low_delay', #使用低时延
-        '-strict','experimental', #允许ffplay偏离解码器性能标准
+        #'-strict','experimental', #允许ffplay偏离解码器性能标准
         '-vf','setpts=N/60/TB',#这个很关键，强制输入流以60fps，由于流实际上以59.25fps速度运行，我们将慢慢赶上
-        '-noframedrop',
+        '-noframedrop',#避免丢帧，保持流畅度
         '-vn', #不要视频
         '-nodisp', #不要展示画面
     ]

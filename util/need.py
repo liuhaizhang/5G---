@@ -95,6 +95,7 @@ def check_ambulance_status(url,car_number):
 
         except Exception as e :
             print('服务器请求超时，睡眠5秒...')
+            print('服务器报错=',str(e))
             co+=1
             time.sleep(5)
 

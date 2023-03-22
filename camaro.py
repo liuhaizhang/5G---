@@ -18,16 +18,17 @@ def push(remote_url,local_url,fmt='flv'):
               '-f', 'dshow',
               # '-thread_queue_size','50',
               '-thread_queue_size', '1048',  #2048
-              '-rtbufsize', '10M',  #8M
+              '-rtbufsize', '5M',  #8M
               '-threads:v', '5',  # ffmpegs支持开启多线程
               '-threads:a', '3',
+              '-vsync','1', #解决音频滞后问题，-async 1 解决音频超前问题
               '-i', '''video=RMONCAM A2 1080P:audio=Microphone (High Definition Audio Device)''',
               #1、视频的配置参数
               '-framerate', '25',
               '-vcodec', 'libx264',
               #pix_fmt 这两个设置会降低画质，提升速度
               # '-pix_fmt', 'bgr24',
-              '-pix_fmt', 'yuv420p',
+              '-pix_fmt', 'yuv420p', #yuv420p
               # '-force_key_frames', 'expr:gte(t,n_forced*0.5)',  # 加上这个参数，缩短关键帧时间，减少拉流时间
               '-x264-params', 'keyint=120:scenecut=0', #缩短视频播放的等待时间
               '-profile:v', 'baseline',
@@ -40,9 +41,10 @@ def push(remote_url,local_url,fmt='flv'):
               '-b:v', '3400k',  # 提高分辨率2
               '-s', '1980x1080',  # 提高分辨率3
               #2、音频的参数
-              '-af', '''highpass=f=300,afftdn=nr=10:nf=-30:tn=1,lowpass=f=3000''',
+              '-af', '''highpass=f=250,afftdn=nr=10:nf=-30:tn=1,lowpass=f=3000''', #过滤背景杂音
+              # '-af','arnndn=m=cb.rnnn', #使用模型来过略背景杂音
               '-sample_rate', '44100',
-              '-channels', '1',
+              '-channels', '2',
               '-acodec', 'aac',
               # '-vcodec', 'h264',
               '-preset:a', 'ultrafast',  #音频编码速度快，画质低，延迟低
