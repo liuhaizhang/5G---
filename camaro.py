@@ -145,8 +145,8 @@ if __name__ == '__main__':
     # 流地址
     STREAM = f'{CAR_NUMBER}-camaro'
     '''1、开机后2分钟再启动脚本'''
-    print('开机等待20秒...')
-    # time.sleep(20)
+    print('开机等待20秒，先等待docker启动...')
+    time.sleep(20)
 
     '''2、推送数据前先查看当前急救车是否有任务'''
     CHECK_URL = 'https://ambulance.thearay.net/api/srs/ambulance-before-send'

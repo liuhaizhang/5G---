@@ -2,9 +2,9 @@ import subprocess
 import os
 import json
 import time
-from util.need import CAR_NUMBER
-from util.need import TIME_FORMAT,public_write_log  #写日志文件
-from util.delete_log import delete_log_file #每次开机时，就去判断日志文件是否满了
+from need import CAR_NUMBER
+from need import TIME_FORMAT,public_write_log  #写日志文件
+from delete_log import delete_log_file #每次开机时，就去判断日志文件是否满了
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #存放拉流医院麦克风脚本的进程id文件

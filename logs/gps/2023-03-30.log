@@ -1,0 +1,205 @@
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 10:41:50,561: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 10:41:53,485: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:41:53,485: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 10:48:17,479: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:48:17,479: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:48:17,479: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 10:58:22,519: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:22,519: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:22,519: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:22,519: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 10:58:38,531: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:38,531: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:38,531: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:38,531: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 10:58:38,531: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:10:48,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:23:28,545: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:30,604: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:31:31,583: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 10:41:50------------
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 11:39:16,590: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+

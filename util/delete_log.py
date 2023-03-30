@@ -1,7 +1,7 @@
 import requests
 import os
-from util.need import REMOTE_IP
-from util.need import BASE_DIR
+from need import REMOTE_IP
+from need import BASE_DIR
 def delete_log_file():
     '1、获取日志文件保留的天数'
     url = f'https://{REMOTE_IP}/api/srs/ambulance-log-day'

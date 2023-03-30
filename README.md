@@ -11,3 +11,5 @@
 4、camaro.py 用来获取急救车的麦克风和摄像头，推送到医院端
 5、screen.py 用来获取救护仪器的屏幕，推送到医院端
 6、gps.py 用来获取急救车的定位信息，发送给医院端
+7、util/restart_audio.py  由于audio.py拉流时遇到网络中断的情况不会重新拉流，通过restart_audio.py 在网络中断时，杀掉audio.py中的进程，再将audio.py重启
+8、util/log_.py 这个是日志功能的模块
