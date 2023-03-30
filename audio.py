@@ -18,6 +18,7 @@ from util.need import netstatus #检查网络是否中断
 from util.need import CAR_NUMBER #急救车编号
 from util.need import REMOTE_IP #服务器域名
 from util.need import AUDIO_PID_PATH #audio的进程id文件存放路径
+from util.need import TIME_FORMAT,audio_cmd_write_log
 
 def play_web_audio(url):
     '''
@@ -43,7 +44,7 @@ def play_web_audio(url):
         '-f','live_flv', #表明流是直播，会影响搜索行为，迫使它往前走
         '-fflags', 'nobuffer', #不使用缓存
         '-flags','low_delay', #使用低时延
-        #'-strict','experimental', #允许ffplay偏离解码器性能标准
+        '-strict','experimental', #允许ffplay偏离解码器性能标准
         '-vf','setpts=N/60/TB',#这个很关键，强制输入流以60fps，由于流实际上以59.25fps速度运行，我们将慢慢赶上
         '-noframedrop',#避免丢帧，保持流畅度
         '-vn', #不要视频
@@ -53,7 +54,8 @@ def play_web_audio(url):
     main_pid = os.getpid() #主进程的id
     while True:
         try:
-            child = subprocess.Popen(command)
+            child = subprocess.Popen(command,stderr=subprocess.STDOUT)
+            audio_cmd_write_log(f'audio/{TIME_FORMAT}.log',result=child)
             play_pid = child.pid #播放音频的进程id
             '2、将这两个进程的pid写到txt文件中，到时候先杀掉play进程再杀掉main进程'
             dic = {'main':main_pid,'play':play_pid}
@@ -61,6 +63,8 @@ def play_web_audio(url):
                 fp.write(str(json.dumps(dic)))
                 fp.close()
             child.wait()
+            print('退出时，等待3秒...')
+            time.sleep(3)
         except Exception as e:
             print('播放视频报错了，等待3秒...')
             time.sleep(3)
@@ -70,10 +74,13 @@ def push_video(url):
     '''
     在拉流播放音频前，必须先推流到srs服务器中
     '''
+    mp4 =os.path.join(os.path.dirname(os.path.abspath(__file__)),'util','before-play-audio.mp4')
+    print(mp4)
+
     comman = ['ffmpeg',
               # 0、全局参数
               '-re',
-              '-i', '''util/before-play-audio.mp4''',
+              '-i', f'''{mp4}''',
               '-ss','2',
               '-c','copy',
               '-r', '25',
@@ -94,13 +101,12 @@ def push_video(url):
 
 if __name__ == '__main__':
     '''播放医院端的语音，新的，需要util/restart_audio.py 文件 来监听网络中断时，重新启动audio.py程序'''
-
     STREAM = f'{CAR_NUMBER}-audio'  # web端推流的麦克风
     print(os.getpid(),'main的pid',type(os.getpid()))
     token = encode_token(key=CAR_NUMBER)
     '''0、等等系统开机稳定后再启动'''
-    print('开机等待85秒...')
-    # time.sleep(85)
+    print('开机等待1秒...')
+    time.sleep(1)
 
     '''1、检测当前急救车是否有急救事件'''
     CHECK_URL = f'https://{REMOTE_IP}/api/srs/ambulance-before-send'

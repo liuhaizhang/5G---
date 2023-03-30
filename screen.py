@@ -10,6 +10,10 @@ import hashlib
 import base64
 import hmac
 import json
+from util.need import public_write_log #常规写日志
+import sys
+from util.need import TIME_FORMAT
+
 
 
 #从摄像头中获取到一帧一帧的画面
@@ -31,7 +35,7 @@ def put_img(queue, maxsize):
             print('read frame error!')
             continue
         '''将画面显示出来'''
-        # fps = int(cap.get(cv2.CAP_PROP_FPS))
+        fps = int(cap.get(cv2.CAP_PROP_FPS))
         # cv2.imshow("screen", frame)
 
         # 按键退出
@@ -46,9 +50,8 @@ def put_img(queue, maxsize):
         queue.put(img.tobytes())
     # # 关闭窗口
     # cv2.destroyAllWindows()
-    #
     # # 停止读取
-    # cap.release()
+    cap.release()
 
 #把摄像头获取到的一帧一帧的画面推送
 def push_frame(queue, remote_url,local_url):
@@ -68,6 +71,7 @@ def push_frame(queue, remote_url,local_url):
                '-i', '-',  #视频输入是从pipe:0 中来
 
                #视频参数
+               '-rtbufsize', '10M',#实时缓存区，需要将流家族到缓冲区，才能操作的
                '-c:v', 'h264',
                '-pix_fmt', 'yuv420p',
                '-force_key_frames', 'expr:gte(t,n_forced*0.5)',  # 加上这个参数，缩短关键帧时间，减少拉流时间
@@ -81,6 +85,7 @@ def push_frame(queue, remote_url,local_url):
                '-c:v', 'h264',
                '-pix_fmt', 'yuv420p',
                '-force_key_frames', 'expr:gte(t,n_forced*0.5)',  # 加上这个参数，缩短关键帧时间，减少拉流时间
+               '-x264-params', 'keyint=120:scenecut=0',  # 数值/帧数=关键帧间隔  缩短视频播放的等待时间
                '-preset', 'ultrafast',
                '-tune', 'zerolatency',  # 低时延编码，加上后延迟再300毫秒左右，但画质会差一些，建议加上
                # '-sc_threshold', '500',#加上后，延迟在300左右，但画面会卡顿，建议不加
@@ -100,12 +105,16 @@ def push_frame(queue, remote_url,local_url):
             try:
                 ret = queue.get()
                 if ret:
+                    #把图片放到subprocess的pipe中
                     child.stdin.write(ret)
             except Exception as e:
                 child.kill() #报错后，杀掉ffmpeg的进程
                 print(f'推流报错：{e}')
+                public_write_log(f'screen\{TIME_FORMAT}.log',f'{e}\nfilename={__file__}\nfunction={sys._getframe().f_code.co_name}',format='%(message)s') #2023-03-28，屏幕报错的日志
                 return False
+    #将图片放到ffmpeg中进行推流
     inner(child,queue)
+    #等待推流结束
     child.wait()
     return False
 
@@ -128,8 +137,8 @@ if __name__ == '__main__':
     # 流地址
     STREAM = f'{CAR_NUMBER}-screen'
     '''1、开机时，先等待2分钟，再启动'''
-    print('开机等待60秒...')
-    time.sleep(60)  #正式环境时，再开启
+    print('开机等待20秒...')
+    # time.sleep(20)  #正式环境时，再开启
 
 
     '''2、推流前，需要先确定当前急救车是否有任务，如果没有就休眠1分钟再请求,拿到急救任务的编号'''

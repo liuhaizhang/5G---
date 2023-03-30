@@ -23,7 +23,9 @@ for comport in all_comports:
 '''4、换GPS时，设置换报文的开头 '''
 GPS_textname = ['GNGGA','GNGLL','GNGSA','GPGSV','BDGGA','BDGLL','BDGSA','BDGSV','GNRMC','GNZDA']
 #生成验证信息
-
+from util.need import public_write_log
+import sys
+from util.need import TIME_FORMAT
 
 #发送gps数据信息给web端
 def send(data):
@@ -48,8 +50,12 @@ def send(data):
     if type(data)!=str:
         #把结构数据转成字符串
         data = json.dumps(data)
-
-    r = requests.post(url, data=data, headers=headers)
+    try:
+        r = requests.post(url, data=data, headers=headers)
+    except Exception as e:
+        public_write_log(f'gps/{TIME_FORMAT}.log',f'发送gps数据给后端失败，{e}\nfilename={__file__}\nfunction={sys._getframe().f_code.co_name}')
+        print(str(e),'网络中断')
+        return
     # print(r.content)
     if r.status_code == 200:
         print('请求成功',URL,time.strftime('%Y-%m-%d %H:%M:%S'))
@@ -61,7 +67,6 @@ def send(data):
             if not has_task_queue.full():
                 # 队列不满才能存入数据，在判断重启电脑时，只要该队列有数据，就执行重启电脑的脚本
                 has_task_queue.put(1)
-
     elif r.status_code == 404:
         #当前急救车的任务已经结束了，应该准备重启电脑，为下一次急救任务准备
         if not has_task_queue.full():
@@ -135,6 +140,7 @@ def GpsChangeWgs84(longitude,latitude,gnvtg):
         # loaction_thread = WriteText('GetLocation', Location_string, loaction_filename)
         # loaction_thread.start()
     except ValueError:
+        public_write_log(f'gps/{TIME_FORMAT}.log','valueError,无效值')
         print('valueError,无效值')
 
 
@@ -826,6 +832,9 @@ if __name__ == '__main__':
     from util.need import check_ambulance_status #检验急救车是否有急救任务
     from util.need import REMOTE_IP #服务器域名
     from util.need import CAR_NUMBER #急救车编号
+    from util.need import public_write_log #普通日志
+    import sys
+
     # CAR_NUMBER = 'car-0001'  # 急救车编号
     URL = f'https://{REMOTE_IP}/api/srs/save-gps'  # 急救车定位数据处理的路由
     #创建锁
@@ -833,8 +842,8 @@ if __name__ == '__main__':
     #创建队列，急救车没有急救车任务时，在队列中存数据
     has_task_queue = queue.Queue(maxsize=10)
     '''0、等待开机稳定后再启动'''
-    print('开机等待80秒...')
-    time.sleep(80)
+    print('开机等待5秒...')
+    time.sleep(5)
     '''1、检测当前急救车是否有急救事件，没有的话就不会进入到获取gps数据的代码和发送gps数据给web端了
         下面这个函数是个循环，直到请求到该急救车有急救任务，才会跳出，往下走
     '''
@@ -919,8 +928,8 @@ if __name__ == '__main__':
                         # 启动进程对文本进行处理
 
                         # 写文本，生成实时，I/O，用线程处理
-                        text_thread = WriteText('comGetText', strBW, text_filename)
-                        text_thread.start()
+                        # text_thread = WriteText('comGetText', strBW, text_filename)
+                        # text_thread.start()
                         '''对于继承threading.Thread 类型，调用start()方法就会调用run()'''
 
                         '''3.2.字段处理'''
@@ -938,7 +947,6 @@ if __name__ == '__main__':
                         #执行重启电脑的脚本, 队列不为空时，说明将gps数据传递过去时，有请求返回的是急救车没有急救任务
                         if not has_task_queue.empty():
                             restart_windows()
-
                     else:
                         # 首个'$GNRMC' 走这里
                         strBW = newS
@@ -949,11 +957,14 @@ if __name__ == '__main__':
         except Exception as e:
             '''5、这个是gps接口断开时，会捕获到的错误，将情况反馈给web端'''
             url = f'https://{REMOTE_IP}/api/srs/ambulance-error'
-            gps_error(url)
-            print('gps插口可能松动了，等待30秒...')
+            try:
+                gps_error(url) #传递信息给服务器，说明该gps端口断开
+            except Exception as ex:
+                pass
+            public_write_log(f'gps/{TIME_FORMAT}.log',f'gps接口松动：{e}\nfilname={__file__}\nfunction={sys._getframe().f_code.co_name}\n',format='%(message)s')
             print(str(e))
-            time.sleep(30)
-            pass
+            print('ser报错，端口松动了')
+            time.sleep(5)
 
 
 
