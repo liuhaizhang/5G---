@@ -14,6 +14,8 @@ import base64
 import hmac
 import queue
 import serial.tools.list_ports
+from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
 
 #急救车编号：必须与数据库中急救车编号一致
 
@@ -28,6 +30,9 @@ from util.need import public_write_log
 import sys
 from util.need import TIME_FORMAT
 
+#获取当前cpu的核数，再根据核数决定线程池的大小
+cpu_count = multiprocessing.cpu_count()
+threading_pools = pool = ThreadPoolExecutor(cpu_count)
 #发送gps数据信息给web端
 def send(data):
     '''
@@ -132,8 +137,10 @@ def GpsChangeWgs84(longitude,latitude,gnvtg):
         print('发送给后端的数据')
         print(dic)
         #开启线程去，将数据请求给web端
-        p = threading.Thread(target=send,args=(dic,))
-        p.start()
+        # p = threading.Thread(target=send,args=(dic,))
+        # p.start()
+        #使用线程池的方式，send是发送的方法，dic是发送给后端的gps数据
+        threading_pools.submit(send,dic)
         time.sleep(0.2)
         #将数据传递给web端
         # send(dic)
