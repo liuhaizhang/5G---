@@ -105,8 +105,8 @@ if __name__ == '__main__':
     print(os.getpid(),'main的pid',type(os.getpid()))
     token = encode_token(key=CAR_NUMBER)
     '''0、等等系统开机稳定后再启动'''
-    print('开机等待1秒...')
-    time.sleep(1)
+    print('开机等待3秒...')
+    time.sleep(3)
 
     '''1、检测当前急救车是否有急救事件'''
     CHECK_URL = f'https://{REMOTE_IP}/api/srs/ambulance-before-send'

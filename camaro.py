@@ -21,7 +21,7 @@ def push(remote_url,local_url,fmt='flv'):
               '-f', 'dshow',
               # '-thread_queue_size','50',
               '-thread_queue_size', '1024',  #1024
-              '-rtbufsize', '12M',  #10M
+              '-rtbufsize', '13M',  #10M
               '-threads:v', '8',  # ffmpegs支持开启多线程
               '-threads:a', '8',
               '-vsync', '1',  #解决音频滞后问题，-async 1 解决音频超前问题
@@ -36,7 +36,7 @@ def push(remote_url,local_url,fmt='flv'):
               #pix_fmt 这两个设置会降低画质，提升速度
               # '-pix_fmt', 'bgr24',
               '-pix_fmt', 'yuv420p',  #yuv420p
-              '-g', '25',
+              # '-g', '10', #10帧一个关键帧
               '-force_key_frames', 'expr:gte(t,n_forced*0.5)',  # 强行指定GOP size，缩短关键帧时间，0.5秒插入一个关键帧，缩短拉流等待时间
               # '-x264-params', 'keyint=120:scenecut=0',  #数值/帧数=关键帧间隔  缩短视频播放的等待时间
 
@@ -47,7 +47,7 @@ def push(remote_url,local_url,fmt='flv'):
               # '-vf', '''scale=iw/2:-1''',  #分辨率降低，提高播放的流畅度
               # '-s', '640x480',
               '-vf', '''scale=1920:1080''',  # 提高分辨率1080p = 1920:1080, 720p=1280:720
-              '-b:v', '1800k',  # 提高分辨率2   3400
+              '-b:v', '1500k',  # 提高分辨率2   3400
               # '-maxrate','1500k',# 2023-03-27 为了视频流畅播放，设置的大小与b:v  3400
               '-s', '1920x1080',  # 提高分辨率1080p=1920x1080 ,720p=1280x720
               #2、音频的参数
@@ -114,10 +114,10 @@ def push(remote_url,local_url,fmt='flv'):
             cmd_write_log(f'camaro/{TIME_FORMAT}.log', result=child)
             #等待推流进程结束
             child.wait()
-            print(f'推流失败：{co} 次，等待3秒...')
+            print(f'推流失败：{co} 次，等待1秒...')
             child.kill()
             co += 1
-            time.sleep(3)
+            time.sleep(1)
         except Exception as e:
             print(e,'这个是报错信息')
             #推流打上日志

@@ -13,13 +13,14 @@ import requests
 import base64
 import hmac
 import queue
+import serial.tools.list_ports
 
 #急救车编号：必须与数据库中急救车编号一致
 
-all_comports = serial.tools.list_ports.comports()
-
-for comport in all_comports:
-    print(comport.device, comport.name, comport.description, comport.interface)
+# all_comports = serial.tools.list_ports.comports()
+#
+# for comport in all_comports:
+#     print(comport.device, comport.name, comport.description, comport.interface)
 '''4、换GPS时，设置换报文的开头 '''
 GPS_textname = ['GNGGA','GNGLL','GNGSA','GPGSV','BDGGA','BDGLL','BDGSA','BDGSV','GNRMC','GNZDA']
 #生成验证信息
@@ -806,7 +807,7 @@ loaction_filename = os.path.join(os.path.join(os.path.expanduser("~"), 'Desktop'
 
 #全局队列，当请求给web后端时，如果当前急救车没有急救任务时，就应该休息1分钟再发
 
-
+#发送给后端
 def gps_error(url,status=3):
     '''
     status=3, 说明这个是gps的初错误，在存到缓存中需要用到，在缓存中取出也需要用到
@@ -822,10 +823,46 @@ def gps_error(url,status=3):
     message = '急救车的gps获取不到数据，可能是插口松动或被拔掉了'
     r = requests.post(url, data=json.dumps({'car_number': car_number,'status':status,'message':message}), headers=headers)
 
+#重启电脑
 def restart_windows():
     # 3、立即关机
     print('各单位请注意了，5秒后重启电脑...')
     os.system("shutdown -r -t 5")
+
+#获取当前急救车的gps插入的串口名
+def get_ser_port_name(chip_name = 'CH340'):
+    '''
+    chip_name: gps定位使用的芯片名，不同型号的gps的芯片是不一样的。
+    return: name=COM6  等串口名字
+    '''
+    # 获取可用串口列表
+    ports = serial.tools.list_ports.comports()
+    # 遍历并打印可用串口信息
+    for port in ports:
+        try:
+            ser = serial.Serial(port.device)
+            ser.close()
+            is_connected = True
+        except serial.SerialException:
+            is_connected = False
+
+        desc = port.description
+        name = port.name
+        if (chip_name in desc) and is_connected and name!='COM1':
+            # print(name)
+            return name
+        # print(f"串口名称: {port.name}")
+        # print(f"描述: {port.description}")
+        # print(f"设备: {port.device}")
+        # print(f"厂商: {port.manufacturer}")
+        # print(f"产品: {port.product}")
+        # print(f"序列号: {port.serial_number}")
+        # print(f"是否已连接: {is_connected}")
+        # print("--------------------------")
+    else:
+        #代表搜索不到了
+        return None
+
 
 if __name__ == '__main__':
     # C:\\Users\\Xinrui\\Desktop
@@ -869,22 +906,29 @@ if __name__ == '__main__':
     count = 0
     event = threading.Event()
 
-    co = 1
+
     while True:
         '''2.扫描端口，获取字段： 先使用串口软件，定位出当前电脑是哪个串口读取gps数据'''
-        co =6
-        # while True:
-        try:
-            ser = serial.Serial(f'COM{co}', 115200)
-            if ser.isOpen():
-                print('gps可用',f' COM{co}')
-                # break
-            else:
-                co+=1
-        except Exception as e:
-            co+=1
-            # print(str(e), '当前电脑读取gps数据的串口有问题！！')
+        # co = 6
+        # try:
+        #     ser = serial.Serial(f'COM{co}', 115200)
+        #     if ser.isOpen():
+        #         print('gps可用',f' COM{co}')
+        #         # break
+        # except Exception as e:
+        #     pass
+            # co+=1
+            # print(str(e), 'gps的插入的位置变化了')
             # time.sleep(3)
+            # continue
+        port_name = get_ser_port_name()
+        try:
+            ser = serial.Serial(f'{port_name}', 115200)
+            if ser.isOpen():
+                print(port_name,'可用的port_name')
+                print('gps是可以使用的')
+        except Exception as e:
+            # print(str(e))
             pass
 
         '''3、获取gps数据，将处理后的gps数据发送给web端'''
@@ -965,6 +1009,9 @@ if __name__ == '__main__':
             print(str(e))
             print('ser报错，端口松动了')
             time.sleep(5)
-
+        finally:
+            #关闭获取的串口句柄(不能关，关了会有问题)
+            # ser.close()
+            pass
 
 

@@ -203,3 +203,897 @@ filename=C:/5G_ambulance/gps.py
 function=send
 -----------end-----------
 
+
+-----------start: 2023-03-30 13:57:44------------
+2023-03-30 13:57:44,856: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 13:57:44------------
+2023-03-30 14:39:41,910: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 14:39:41,910: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 15:35:49------------
+2023-03-30 15:35:49,641: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 15:35:49------------
+2023-03-30 15:35:59,603: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:35:59,603: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 15:35:49------------
+2023-03-30 15:48:02,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:48:02,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:48:02,588: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 15:35:49------------
+2023-03-30 15:48:09,600: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:48:09,600: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:48:09,600: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:48:09,600: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 15:35:49------------
+2023-03-30 15:51:58,605: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:51:58,605: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:51:58,605: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:51:58,605: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 15:51:58,605: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:26:21------------
+2023-03-30 16:26:21,648: content: 发送gps数据给后端失败，('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:26:21------------
+2023-03-30 16:31:40,731: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:40,731: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:26:21------------
+2023-03-30 16:31:43,627: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:43,627: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:43,627: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:26:21------------
+2023-03-30 16:31:45,664: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:45,664: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:45,664: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:45,664: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:26:21------------
+2023-03-30 16:31:59,219: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:59,219: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:59,219: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:59,219: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:31:59,219: content: 发送gps数据给后端失败，('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:01,674: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DAC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:02,674: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:02,674: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:03,673: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:03,673: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:03,673: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:04,688: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DA48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:04,688: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DA48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:04,688: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DA48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:04,688: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DA48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:05,675: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:05,675: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:05,675: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:05,675: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:05,675: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:06,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:07,679: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:08,678: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2D948>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:09,676: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DBC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,677: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC2DE08>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSC2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,820: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:10,821: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC25A48>: Failed to establish a new connection: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 16:56:11,680: content: 发送gps数据给后端失败，HTTPSConnectionPool(host='ambulance.thearay.net', port=443): Max retries exceeded with url: /api/srs/save-gps (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F62DC383C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:11,636: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+2023-03-30 18:10:13,621: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+2023-03-30 18:10:14,667: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+2023-03-30 18:10:15,622: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+2023-03-30 18:10:16,622: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+2023-03-30 18:10:17,622: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+2023-03-30 18:10:18,619: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+2023-03-30 18:10:19,624: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+2023-03-30 18:10:20,621: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+2023-03-30 18:10:21,622: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+2023-03-30 18:10:22,625: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+2023-03-30 18:10:23,615: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+2023-03-30 18:10:24,625: content: valueError,无效值
+-----------end-----------
+
+
+-----------start: 2023-03-30 16:56:01------------
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+2023-03-30 18:10:25,640: content: 发送gps数据给后端失败，('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+filename=C:/5G_ambulance/gps.py
+function=send
+-----------end-----------
+
