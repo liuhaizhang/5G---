@@ -82,6 +82,13 @@ def send(data):
     elif r.status_code == 403:
         print('携带的token有问题')
 
+#2023-07-25: 从队列中获取数据，发送给后端
+def threading_send():
+    while True:
+        #阻塞等待存放gps的queue中是否有数据，有才发送数据给后端，没有就一直阻塞住
+        print(gps_data_queue.qsize(),'gps队列大小')
+        dic = gps_data_queue.get()
+        send_gps_data_pool.submit(send,dic)
 
 #经纬度的转换。获得WGS84坐标系.从GPS获取的数据需要经过转换
 def GpsChangeWgs84(longitude,latitude,gnvtg):
@@ -140,8 +147,18 @@ def GpsChangeWgs84(longitude,latitude,gnvtg):
         # p = threading.Thread(target=send,args=(dic,))
         # p.start()
         #使用线程池的方式，send是发送的方法，dic是发送给后端的gps数据
-        threading_pools.submit(send,dic)
-        time.sleep(0.2)
+        # threading_pools.submit(send,dic)
+        # time.sleep(0.2)
+
+        # 2023-07-25: 将gps数据放到队列中
+        if gps_data_queue.full():
+            max_size = gps_data_queue.maxsize
+            for i in range(max_size - 1):
+                # 队列满时，清空只能剩一个数据
+                gps_data_queue.get()
+            gps_data_queue.put(dic)
+        else:
+            gps_data_queue.put(dic)
         #将数据传递给web端
         # send(dic)
         # #将经纬度写到文件中
@@ -903,7 +920,12 @@ if __name__ == '__main__':
         【此时要重启电脑】
     '''
     print(data,'请求拿到的数据')
-
+    print(data, '请求拿到的数据')
+    # 2023-07-25: 将拿到的gps数据放到队列中，创建一个线程池，用于从队列中获取数据，发送给后端
+    gps_data_queue = queue.Queue(maxsize=4)  # 存放gps数据的队列
+    cpu_count = multiprocessing.cpu_count()
+    send_gps_data_pool = ThreadPoolExecutor(cpu_count)  # 发送gps数据到后端的线程池
+    threading.Thread(target=threading_send).start()  # 从gps_data_queue中获取数据，发送给后端
 
     out = []
     start = time.time()
