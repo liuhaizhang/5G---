@@ -153,7 +153,8 @@ if __name__ == '__main__':
     token = encode_token(key=CAR_NUMBER) #生成急救车的token
     maxsize = 4  #存放画面的队列
     queue = mp.Queue(maxsize=maxsize)
-    remote_url = f"rtmp://{REMOTE_IP}:{PROTOCOL_PORT.get('rtmp')}/{CAR_NUMBER}/{STREAM}?token={token}" #远端地址
+    remote_url = f"rtmp://{REMOTE_IP}:{PROTOCOL_PORT.get('rtmp')}/{CAR_NUMBER}/{STREAM}?token={token}" #没有使用nginx代理时远端地址
+    # remote_url = f"rtmp://{REMOTE_IP}:443/{CAR_NUMBER}/{STREAM}?token={token}" #使用nginx代理后，rtmp推流地址
     local_url = f"rtmp://127.0.0.1:1935/{CAR_NUMBER}/{STREAM}" #本地srs地址
     put = mp.Process(target=put_img, args=(queue, maxsize)) #获取屏幕画面放到队列中
     put.start()
