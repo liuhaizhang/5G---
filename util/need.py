@@ -188,3 +188,24 @@ def public_write_log(log_file,content,format = '%(asctime)s: %(message)s'):
     log.start_log()
     log.set_log(content)
     log.end_log()
+
+def show_usb_index():
+    '''
+    查看usb摄像头对应的索引值，在使用时，索引值不能有问题。
+    '''
+    import cv2
+    # 尝试打开不同索引的摄像头并显示图像
+    for i in range(10):  # 假设最多支持 10 个摄像头
+        cap = cv2.VideoCapture(i)
+        if not cap.isOpened():
+            break
+
+        # 读取并显示图像
+        ret, frame = cap.read() #读取一帧
+        cv2.imshow(f"Camera {i}", frame)  #在窗口展示出来
+        cv2.waitKey(5000)  # 展示图像 5 秒后关闭窗口
+        cap.release() #释放
+        cv2.destroyAllWindows() #销毁所有的窗口
+
+if __name__ == '__main__':
+    show_usb_index()
