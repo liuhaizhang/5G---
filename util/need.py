@@ -5,6 +5,7 @@ import hmac
 import base64
 import requests
 import subprocess
+from requests.exceptions import SSLError, ConnectionError
 import os
 import signal
 
@@ -67,6 +68,7 @@ def check_ambulance_status(url,car_number):
     co = 0
     #获取急救车IP地址
     ip = getip()
+    verify = True
     while True:
         #当前急救车的编号
         token = encode_token(key=car_number)#生成token
@@ -76,7 +78,7 @@ def check_ambulance_status(url,car_number):
             'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0",
         }
         try:
-            r = requests.post(url,data=json.dumps({'car_number':car_number,'ip':ip}),headers=headers)
+            r = requests.post(url,verify=verify,data=json.dumps({'car_number':car_number,'ip':ip}),headers=headers)
             # print(r.content)
             if r.status_code == 200:
                 print('当前急救车有急救任务，可以推送数据',url,time.strftime('%Y-%m-%d %H:%M:%S'))
@@ -95,6 +97,11 @@ def check_ambulance_status(url,car_number):
                     print('当前急救车没有急救任务,超过5次请求，睡眠60秒...')
                     time.sleep(60)
                 co+=1
+        except SSLError as e:
+            print(f"ssl证书问题，改成忽略证书的情况,{e}")
+            co+=1
+            verify = False
+            time.sleep(5)
 
         except Exception as e :
             print('服务器请求超时，睡眠5秒...')
